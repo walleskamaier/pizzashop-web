@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
 
 export function AppLayout() {
   return (
@@ -6,9 +6,8 @@ export function AppLayout() {
       <h1>Cabeçalho</h1>
 
       <div>
-        <Outlet/>
+        <Outlet />
       </div>
     </div>
-    
-  )
+  );
 }

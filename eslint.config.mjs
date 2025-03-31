@@ -13,5 +13,5 @@ const compat = new FlatCompat({
 });
 
 export default defineConfig([{
-    extends: compat.extends("@rocketseat/eslint-config/react"),
+    extends: compat.extends("eslint-config/react"),
 }]);

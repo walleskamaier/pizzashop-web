@@ -6,7 +6,6 @@ import { z } from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-label";
-import { Ghost } from "lucide-react";
 
 const signInForm = z.object({
   email: z.string().email(),
@@ -23,8 +22,6 @@ export function SignIn() {
 
   async function handleSignIn(data: SignInForm) {
     try {
-      console.log(data);
-
       await new Promise((resolve) => setTimeout(resolve, 2000));
 
       toast.success("Enviamos um link de autenticação para o seu e-mail!", {

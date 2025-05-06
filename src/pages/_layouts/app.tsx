@@ -1,7 +1,6 @@
 import { Header } from "@/components/header";
 import { api } from "@/lib/axios";
 import { isAxiosError } from "axios";
-import { error } from "console";
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 
